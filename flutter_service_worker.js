@@ -3,9 +3,16 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+  "assets/AssetManifest.json": "fb59c2b1370c6999d8fff659077f6de3",
+"assets/FontManifest.json": "14e108e8904539ad02417684f3b1c809",
+"assets/fonts/acmesa-bold.ttf": "d9810a79578de4e84e53c231fa191789",
+"assets/fonts/acmesa-italic.ttf": "561bb6f1a7ce4845a4d8d4adc03eccb0",
+"assets/fonts/acmesa-regular.ttf": "0b70861368709e9cc41cb23605675848",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/Images/2.0x/done.png": "5561085d411012d6e45aabff13733cc6",
+"assets/Images/3.0x/done.png": "a085c7d5ec7b96b06c7bafe6b06b6bc2",
+"assets/Images/done.png": "a2865af379c6d17cf4c2ed19b7d273d5",
+"assets/Images/Logo_philo.png": "40451f05d85478ed12e0ec0b6de3aa66",
 "assets/NOTICES": "a896c6b106187889ac9979d9afeb4178",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
@@ -17,9 +24,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "730838b0dfd23c105e61adf5058af42d",
-"/": "730838b0dfd23c105e61adf5058af42d",
-"main.dart.js": "bf35da82642ee828046969299c856bb7",
+"index.html": "69fe801fea9b10ae5704ce4117d54cd2",
+"/": "69fe801fea9b10ae5704ce4117d54cd2",
+"main.dart.js": "0e8501bf66c7e9e10c4da245511ab0f5",
 "manifest.json": "4d4ab68e45e126ffb66ab43df0a1855c",
 "version.json": "6ab7dfee00c9583f018cacd16e4604c3"
 };
