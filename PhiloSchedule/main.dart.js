@@ -22159,7 +22159,7 @@ return B.b.ag(a,r)===47},
 pP(a,b){var s=0,r=A.a1(t.z),q,p
 var $async$pP=A.a2(function(c,d){if(c===1)return A.Z(d,r)
 while(true)switch(s){case 0:s=2
-return A.a5(A.Ui(A.d4("..//shows_api/getShows.php?from="+B.b.K(a.j(0),0,10)+"&to="+B.b.K(b.j(0),0,10))),$async$pP)
+return A.a5(A.Ui(A.d4("https://gustier-writing.000webhostapp.com/shows_api/getShows.php?from="+B.b.K(a.j(0),0,10)+"&to="+B.b.K(b.j(0),0,10))),$async$pP)
 case 2:p=d
 if(p.b===200){q=A.aIs(A.atd(J.aO(A.ase(p.e).c.a,"charset")).dj(0,p.w))
 $.hf=q
@@ -22169,7 +22169,7 @@ return A.a0($async$pP,r)},
 aiK(){var s=0,r=A.a1(t.z),q,p
 var $async$aiK=A.a2(function(a,b){if(a===1)return A.Z(b,r)
 while(true)switch(s){case 0:s=2
-return A.a5(A.Ui(A.d4("..//shows_api/getMangers.php")),$async$aiK)
+return A.a5(A.Ui(A.d4("https://gustier-writing.000webhostapp.com/shows_api/getMangers.php")),$async$aiK)
 case 2:p=b
 if(p.b===200){q=A.aI_(A.atd(J.aO(A.ase(p.e).c.a,"charset")).dj(0,p.w))
 $.atE=q
@@ -22178,7 +22178,7 @@ return A.a_(null,r)}})
 return A.a0($async$aiK,r)},
 ail(a,b,c,d,e,f,g){var s=0,r=A.a1(t.z),q,p
 var $async$ail=A.a2(function(h,i){if(h===1)return A.Z(i,r)
-while(true)switch(s){case 0:q="..//shows_api/add_show.php?name="+a+"&date="+b+"&from="+c+"&to="+d+"&place="+e+"&manger_id="+f+"&isNextWeekGenerated="+g
+while(true)switch(s){case 0:q="https://gustier-writing.000webhostapp.com/shows_api/add_show.php?name="+a+"&date="+b+"&from="+c+"&to="+d+"&place="+e+"&manger_id="+f+"&isNextWeekGenerated="+g
 s=2
 return A.a5(A.Ui(A.d4(q)),$async$ail)
 case 2:p=i
@@ -22188,7 +22188,7 @@ return A.a_(null,r)}})
 return A.a0($async$ail,r)},
 aiI(a){var s=0,r=A.a1(t.z),q,p
 var $async$aiI=A.a2(function(b,c){if(b===1)return A.Z(c,r)
-while(true)switch(s){case 0:q="..//shows_api/editShow.php?id="+a.a+"&name="+a.b+"&date="+B.b.K(a.c.j(0),0,10)+"&from="+a.d.j(0)+"&to="+a.e.j(0)+"&place="+a.f+"&manger_id="+a.r+"&isNextWeekGenerated="+a.w
+while(true)switch(s){case 0:q="https://gustier-writing.000webhostapp.com/shows_api/editShow.php?id="+a.a+"&name="+a.b+"&date="+B.b.K(a.c.j(0),0,10)+"&from="+a.d.j(0)+"&to="+a.e.j(0)+"&place="+a.f+"&manger_id="+a.r+"&isNextWeekGenerated="+a.w
 s=2
 return A.a5(A.Ui(A.d4(q)),$async$aiI)
 case 2:p=c
@@ -22198,7 +22198,7 @@ return A.a_(null,r)}})
 return A.a0($async$aiI,r)},
 aiR(a){var s=0,r=A.a1(t.z),q,p
 var $async$aiR=A.a2(function(b,c){if(b===1)return A.Z(c,r)
-while(true)switch(s){case 0:q="..//shows_api/generate_next_week.php?id="+a.a+"&name="+a.b+"&date="+B.b.K(a.c.I(0,B.hf).j(0),0,10)+"&from="+a.d.I(0,B.hf).j(0)+"&to="+a.e.I(0,B.hf).j(0)+"&place="+a.f+"&manger_id="+a.r
+while(true)switch(s){case 0:q="https://gustier-writing.000webhostapp.com/shows_api/generate_next_week.php?id="+a.a+"&name="+a.b+"&date="+B.b.K(a.c.I(0,B.hf).j(0),0,10)+"&from="+a.d.I(0,B.hf).j(0)+"&to="+a.e.I(0,B.hf).j(0)+"&place="+a.f+"&manger_id="+a.r
 s=2
 return A.a5(A.Ui(A.d4(q)),$async$aiR)
 case 2:p=c
